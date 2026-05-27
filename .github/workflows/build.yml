@@ -5,8 +5,7 @@ on:
     branches:
       - main
   schedule:
-    - cron: '0 04 * * *'  # 10:05am UTC everyday
-  push:
+    - cron: '0 04 * * *'  
     branches:
       - main
     paths-ignore:

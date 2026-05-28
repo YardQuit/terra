@@ -4,10 +4,13 @@ on:
   pull_request:
     branches:
       - main
+  schedule:
+    - cron: '00 04 * * *'
+  push:
+    branches:
+      - main
     paths-ignore:
       - '**/README.md'
-    schedule:
-      - cron: '0 4 * * *'
   workflow_dispatch:
 
 env:

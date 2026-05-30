@@ -36,6 +36,8 @@ git
 git-lfs
 gnome-boxes
 gnome-calendar
+gnome-connections
+gnome-contacts
 gnome-screenshot
 go-rpm-macros
 go-rpm-templates

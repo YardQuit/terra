@@ -23,6 +23,7 @@ dislocker
 distrobox
 easyeffects
 emacs
+enchant
 evince
 evince-previewer
 exif
@@ -58,6 +59,8 @@ gstreamer1-plugins-good-gtk
 gstreamer1-plugins-ugly-free
 guile30
 helix
+hunspell-sv
+hunspell-en-US
 iftop
 inxi
 ipcalc

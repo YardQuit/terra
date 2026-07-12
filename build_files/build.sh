@@ -21,18 +21,18 @@ dnf5 install --skip-unavailable -y $(cat /ctx/rpm_packages)
 
 # Enable copr repositories
 dnf5 -y copr enable atim/starship
-dnf5 -y copr enable pennbauman/ports
-dnf5 -y copr enable scottames/ghostty
+# dnf5 -y copr enable pennbauman/ports
+# dnf5 -y copr enable scottames/ghostty
 
 # Install from copr repositories
 dnf5 -y install starship
-dnf5 -y install lf
-dnf5 -y install ghostty
+# dnf5 -y install lf
+# dnf5 -y install ghostty
 
 # Disable copr repositories
 dnf5 -y copr disable atim/starship
-dnf5 -y copr disable pennbauman/ports
-dnf5 -y copr disable scottames/ghostty
+# dnf5 -y copr disable pennbauman/ports
+# dnf5 -y copr disable scottames/ghostty
 
 # Install Mega Client
 # wget https://mega.nz/linux/repo/Fedora_44/x86_64/megasync-Fedora_44.x86_64.rpm
@@ -45,7 +45,7 @@ dnf5 -y copr disable scottames/ghostty
 # rm -f "$PWD/megacmd-Fedora_44.x86_64.rpm"
 
 # Proton Bridge
-wget https://github.com/ProtonMail/proton-bridge/releases/download/v3.23.1/protonmail-bridge-3.23.1-1.x86_64.rpm
+wget https://github.com/ProtonMail/proton-bridge/releases/download/v3.23.1/protonmail-bridge-3.25.0-1.x86_64.rpm
 dnf5 -y install "$PWD/protonmail-bridge-3.23.1-1.x86_64.rpm"
 rm -f "$PWD/protonmail-bridge-3.23.1-1.x86_64.rpm"
 

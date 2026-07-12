@@ -45,7 +45,7 @@ dnf5 -y copr disable atim/starship
 # rm -f "$PWD/megacmd-Fedora_44.x86_64.rpm"
 
 # Proton Bridge
-wget https://github.com/ProtonMail/proton-bridge/releases/download/v3.23.1/protonmail-bridge-3.25.0-1.x86_64.rpm
+wget https://proton.me/download/bridge/protonmail-bridge-3.25.0-1.x86_64.rpm
 dnf5 -y install "$PWD/protonmail-bridge-3.23.1-1.x86_64.rpm"
 rm -f "$PWD/protonmail-bridge-3.23.1-1.x86_64.rpm"
 

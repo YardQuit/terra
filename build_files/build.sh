@@ -46,8 +46,8 @@ dnf5 -y copr disable atim/starship
 
 # Proton Bridge
 wget https://proton.me/download/bridge/protonmail-bridge-3.25.0-1.x86_64.rpm
-dnf5 -y install "$PWD/protonmail-bridge-3.23.1-1.x86_64.rpm"
-rm -f "$PWD/protonmail-bridge-3.23.1-1.x86_64.rpm"
+dnf5 -y install protonmail-bridge-*.x86_64.rpm
+rm -f protonmail-bridge-*.x86_64.rpm
 
 # Clean
 dnf5 -y clean all

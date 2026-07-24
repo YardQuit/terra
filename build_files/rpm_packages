@@ -90,6 +90,7 @@ mpv
 mupdf
 mupdf
 neovim
+openblas-devel
 osbuild
 osbuild-selinux
 packit
